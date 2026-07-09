@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "A tutorial for intro to backend",
+  "homepage": "https://github.com/AustineMa/Backend_tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/AustineMa/Backend_tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AustineMa/Backend_tutorial.git"
+  },
+  "license": "ISC",
+  "author": "Austine",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4",
+    "nodemon": "^3.1.14"
+  }
+}
